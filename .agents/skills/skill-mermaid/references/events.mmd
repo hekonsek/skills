@@ -1,0 +1,19 @@
+---
+config:
+  look: handDrawn
+---
+
+%% Prefer generic flowcharts when possible
+flowchart LR
+    %% Define elements with labels before using them in the flowchart.
+    %% Represent queues with "das" shape. 
+    queue@{ label: "Message Queue", shape: das } 
+    producer[Producer]
+    consumer[Consumer]
+    %% Represent databases with cylinder shape.
+    db[(Database)] 
+
+    producer --> queue
+    queue --> consumer
+    consumer --> db
+    

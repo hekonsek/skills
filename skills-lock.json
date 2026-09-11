@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-mermaid": {
+      "source": "hekonsek/skill-mermaid",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "e032f786c28643292f65fe0257933f38cedeadc31168cb69d06ccb8e4662aa4a"
+    }
+  }
+}
