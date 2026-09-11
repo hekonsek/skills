@@ -1,0 +1,3 @@
+[submodule "skills/skill-mermaid"]
+	path = skills/skill-mermaid
+	url = https://github.com/hekonsek/skill-mermaid
