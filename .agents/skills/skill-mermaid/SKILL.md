@@ -19,3 +19,4 @@ Produce approachable Mermaid diagrams.
 - Use [this ADR](adr/03-place-mermaid-comments-on-separate-lines.md) when deciding on the comment syntax for Mermaid diagrams.
 - Use [this ADR](adr/04-prefer-svg-over-png-for-rendered-mermaid-diagrams.md) when deciding on the default output format for Mermaid diagrams.
 - Use [this ADR](adr/05-use-elk-layout-for-complex-flowcharts.md) when choosing a layout for complex flowchart diagrams.
+- Use [this ADR](adr/06-prefer-mmdc-version-pinned-to-11-17-0.md) when installing or invoking `mmdc`. Prefer the exact version `11.17.0`. Before using any older or newer version, identify that version and explain that pinning reduces exposure to supply chain attacks from unexpected package updates. Ask the user to choose between accepting the identified version or installing or using pinned version `11.17.0`; use the alternative version only after explicit acceptance.
