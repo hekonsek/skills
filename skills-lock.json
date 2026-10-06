@@ -18,6 +18,12 @@
       "sourceType": "github",
       "skillPath": "SKILL.md",
       "computedHash": "7e305fadaddb4ac3605b8bdfa5398aaf649a7e35fd5f2423b38a33224eab906c"
+    },
+    "skill-trivy": {
+      "source": "hekonsek/skill-trivy",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "696a98d5f98f86ff9d3b4ff0ca994ecfc52fae74848c52edf379a5ebb94e7866"
     }
   }
 }
